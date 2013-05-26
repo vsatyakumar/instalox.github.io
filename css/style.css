@@ -95,30 +95,26 @@ p {
 }
 
 
-#logotext {
-	font-family: 'akzidenz-grotesk_bq_condensRg';
-	text-transform: uppercase;
-	padding-top: 7%;
-	line-height: 0.8em;
-}
+
 
 #logo {
 	opacity: 0.9;
 	float: left;
-	padding-top: 1em;
+	padding-top: 0.8em;
     padding-left: 9em;
-    width: 70%;
+    width: 60%;
 }
 
 .nav {
 	font-family: 'CenturyGothicRegular';
-	font-size: 1.4em;
+	font-size: 1.2em;
 	color: #787873;
 }
 
 
 ul{
-  padding: 6% 5% 5% 5%;
+  padding: 3% 5% 5% 5%;
+  margin-bottom: 0.7em;
 }
 li{
   float: right;
@@ -133,52 +129,54 @@ li{
     position: fixed;
     background: white;
     z-index: 2000;
-    opacity: 0.98;
+    opacity: 1;
 }
 
 #first {
 	font-family: 'couturebold';
-	font-size: 4em;
+	font-size: 5em;
 	color: #4fc4fc;
 }
 
 #second {
 	font-family: 'couturebold';
 	color: #494646;
+    font-size: 4.7em;
 }
 
 #third {
 	font-family: 'AmplitudeCompMediumRegular';
-	font-size: 0.5em;
+	font-size: 2.8em;
 	text-transform: none;
 	color: #494646;
 }
 
 #fourth {
 	color: #ef4f2a;
-	font-size: 0.7em;
+	font-size: 1em;
+    font-family: 'couturebold';
 }
 
 #fifth {
 	color: #ef4f2a;
-	font-size: 1.3em;
+	font-size: 5em;
 	font-family: 'berthold_akzidenz_grotesk_bMd';
 }
 
 #heading {
-	padding-top: 13%;
-    padding-bottom: 3%;
+	padding-top: 8%;
+    padding-bottom: 2%;
 }
 
 #text {
     color: white;
-    font-size: 1.4em;
-    margin: 4% 15% 4% 0;
+    font-size: 1.2em;
+    margin: 2% 15% 2% 0;
 }
 #heading p {
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 2px;
+	margin-bottom: -5px;
 	line-height: 1em;
 }
 
@@ -202,12 +200,17 @@ li{
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
-    margin: 10% 10% 10% 25%;
+    margin: 5% 10% 5% 50%;
 }
 
 #footer {
     text-align: center;
-    font-size: 1.3em;
-    padding-top: 1%;
+    font-size: 1.2em;
+    padding-top: 0.5%;
     color: #787873;
+    margin:0;
+}
+
+#footer p {
+    margin-bottom: 0;
 }
