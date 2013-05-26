@@ -100,7 +100,7 @@ p {
 #logo {
 	opacity: 0.9;
 	float: left;
-	padding-top: 0.5em;
+	padding-top: 0.6em;
     padding-left: 9em;
     width: 57%;
 }
@@ -113,7 +113,7 @@ p {
 
 
 ul{
-  padding: 2.7% 15% 5% 5%;
+  padding: 3% 15% 5% 5%;
   margin-bottom: 0.7em;
 }
 li{
@@ -123,9 +123,9 @@ li{
 }
 
 #header {
-	-webkit-box-shadow: 0px 1px 3px #5c5c5c;
-    -moz-box-shadow: 0px 1px 3px #5c5c5c;
-    box-shadow: 0px 1px 3px #5c5c5c;
+	-webkit-box-shadow: 0px 0px 7px #9b9b9b;
+    -moz-box-shadow: 0px 0px 7px #9b9b9b;
+    box-shadow: 0px 0px 7px #9b9b9b;
     position: fixed;
     background: white;
     z-index: 2000;
@@ -187,7 +187,7 @@ li{
     color: white;
     font-family: 'walkway_semiboldregular';
     font-size: 1.4em;
-    padding: 2% 0 2% 0;
+    padding: 1% 0 1% 0;
 }
 
 #banner {
@@ -196,12 +196,39 @@ li{
 
 #photo {
     background-color: white;
-    width: 9em;
-    height: 9em;
+    width: 11em;
+    height: 11em;
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
-    margin: 5% 10% 5% 50%;
+    margin: 5% 10% 7% 50%;
+}
+
+#scroll_down_arrow {
+bottom: -0.1em;
+position: absolute;
+left: 50%;
+margin-bottom: 0;
+}
+#web {
+    background: url('/images/main_web.png') center no-repeat;
+    height: 33px;
+    width: 33px;
+    margin: 2% auto;
+}
+
+#ux {
+    background: url('/images/main_ui.png') center no-repeat;
+    height: 33px;
+    width: 33px;
+    margin: 2% auto;
+}
+
+#brand {
+    background: url('/images/main_brand.png') center no-repeat;
+    height: 33px;
+    width: 33px;
+    margin: 2% auto;
 }
 
 #footer {
@@ -214,4 +241,5 @@ li{
 
 #footer p {
     margin-bottom: 0;
+    margin-top: 0;
 }
