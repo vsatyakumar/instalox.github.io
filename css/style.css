@@ -20,8 +20,30 @@
 }
 
 
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('/fonts/myriadpro-regular.eot');
+    src: url('/fonts/myriadpro-regular.eot') format('embedded-opentype'),
+         url('/fonts/myriadpro-regular.woff') format('woff'),
+         url('/fonts/myriadpro-regular.ttf') format('truetype'),
+         url('/fonts/myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
 
 
+
+
+
+@font-face {
+    font-family: 'walkway_semiboldregular';
+    src: url('/fonts/walkway_semibold-webfont.eot');
+    src: url('/fonts/walkway_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/walkway_semibold-webfont.woff') format('woff'),
+         url('/fonts/walkway_semibold-webfont.ttf') format('truetype'),
+         url('/fonts/walkway_semibold-webfont.svg#walkway_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -60,8 +82,8 @@
 
 }
 
-object, img {
-	width: 25%;
+p {
+    font-family: 'MyriadProRegular';
 }
 
 
@@ -75,8 +97,8 @@ object, img {
 #logo {
 	opacity: 0.9;
 	float: left;
-	padding-top: 0.7em;
-    width: 60%;
+	padding-top: 2.3em;
+    padding-left: 9em;
 }
 
 .nav {
@@ -140,11 +162,25 @@ li{
 	padding-top: 3%;
     padding-bottom: 3%;
 }
+
+#text {
+    color: white;
+    font-size: 1.7em;
+    margin: 4% 15% 4% 0;
+}
 #heading p {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2px;
 	line-height: 1em;
+}
+
+#icons {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'walkway_semiboldregular';
+    font-size: 1.4em;
 }
 
 #banner {
@@ -159,4 +195,11 @@ li{
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     margin: 10% 10% 10% 25%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 1%;
+    color: #787873;
 }
