@@ -73,9 +73,10 @@ object, img {
 }
 
 #logo {
-	opacity: 0.7;
+	opacity: 0.9;
 	float: left;
 	padding-top: 0.7em;
+    width: 60%;
 }
 
 .nav {
@@ -137,10 +138,25 @@ li{
 
 #heading {
 	padding-top: 3%;
+    padding-bottom: 3%;
 }
 #heading p {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2px;
 	line-height: 1em;
+}
+
+#banner {
+    background-color: #ef4f2a;
+}
+
+#photo {
+    background-color: white;
+    width: 12em;
+    height: 12em;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    margin: 10% 10% 10% 25%;
 }
