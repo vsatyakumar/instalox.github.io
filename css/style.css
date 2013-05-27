@@ -84,6 +84,7 @@
 
 html, body {
     height: 100%;
+    font-size: 99%;
 }
 
 .container {
@@ -229,7 +230,7 @@ li{
 #footer {
     text-align: center;
     font-size: 1.1em;
-    padding-top: 0.5%;
+    padding-top: 0.4%;
     color: #787873;
     margin:0;
 }
