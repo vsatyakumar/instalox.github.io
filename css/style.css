@@ -171,7 +171,7 @@ li{
 #text {
     color: white;
     font-size: 1.2em;
-    margin: 2% 15% 2% -1.8%;
+    margin: 2% 25% 2% -1.8%;
     text-align: justify;
 }
 #heading p {
@@ -204,12 +204,7 @@ li{
     margin: 5% 10% 7% 50%;
 }
 
-#scroll_down_arrow {
-bottom: -0.1em;
-position: absolute;
-left: 50%;
-margin-bottom: 0;
-}
+
 #web {
     background: url('/images/main_web.png') center no-repeat;
     height: 33px;
